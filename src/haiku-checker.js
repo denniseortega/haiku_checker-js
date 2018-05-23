@@ -1,3 +1,4 @@
+//business logic
 export function starter(goal) {
   var output = [];
   for (var i = 1; i <= goal; i++) {
