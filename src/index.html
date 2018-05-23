@@ -5,6 +5,28 @@
     <title>Haiku Checker</title>
   </head>
   <body>
-    <h1> Haiku Checker</h1>
+    <div class="container">
+      <h1> Haiku Checker</h1>
+      <br>
+      <h2>A Haiku is a Japanese poem of seventeen syllables, in three lines of five, seven, and five. It traditionally evokes images of the natural world.</h2>
+      <h4>Here's an example:</h4>
+      <p>for all the pizzas
+        <br>
+        the world has enjoyed so far
+        <br>
+        the last is not yet</p>
+      <form id="haiku-form">
+        <div class="form-group">
+          <label for="haikuInput">Create Your Own Haiku</label>
+          <input type="text" class="form-control" id="haikuLine1">
+          <input type="text" class="form-control" id="haikuLine2">
+          <input type="text" class="form-control" id="haikuLine3">
+        </div>
+        <button type="submit" class="btn btn-primary mb-2">Submit Poem</button>
+       <div class="output">
+         <p>Results:<br><span class="haikuResults"></span></p>
+       </div>
+      </form>
+    </div>
   </body>
 </html>

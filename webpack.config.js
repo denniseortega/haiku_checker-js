@@ -17,7 +17,7 @@ module.exports = {
     new UglifyJsPlugin({sourceMap: true}),
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'Starter',
+      title: 'Haiku Checker',
       template: './src/index.html',
       inject: 'body'
     })
